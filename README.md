@@ -109,5 +109,3 @@ cd cortana-voice-home-automation
 2. Open `firmware/voice_relay_controller.ino` in the Arduino IDE.
 3. Select board `Arduino Uno` and the corresponding COM port.
 4. Click **Upload**.
-
-```
