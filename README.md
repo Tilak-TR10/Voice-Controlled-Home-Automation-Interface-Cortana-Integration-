@@ -5,7 +5,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Arduino-blue.svg)](https://www.arduino.cc/)
 [![Language](https://img.shields.io/badge/Language-Python%20%7C%20Embedded%20C%2B%2B-brightgreen.svg)](https://www.python.org/)
 [![Timeline](https://img.shields.io/badge/Timeline-Mar%202020%20--%20May%202020-orange.svg)](https://github.com/)
-[![Category](https://img.shields.io/badge/Category-Voice%20Automation-purple.svg)](https://github.com/)
+[![Video Demo](https://img.shields.io/badge/YouTube-Video%20Demo-red.svg)](https://youtu.be/cbXy2bDr4v0)
 
 An end-to-end voice-activated desktop and appliance automation pipeline engineered during the 2020 lockdown to bridge Microsoft Cortana voice commands with physical hardware actuators and desktop system routines via serial communication.
 
@@ -13,7 +13,10 @@ An end-to-end voice-activated desktop and appliance automation pipeline engineer
 
 ## 📽️ Video Demonstration
 
-*Demo video link or media demo placeholder (update URL if published to YouTube).*
+[![Cortana Fun a Fun Project during Lockdown](https://img.youtube.com/vi/cbXy2bDr4v0/0.jpg)](https://youtu.be/cbXy2bDr4v0)
+
+> **Direct YouTube Link:** [Cortana Fun a Fun Project during Lockdown](https://youtu.be/cbXy2bDr4v0)  
+> *Click the thumbnail above or link to watch the voice-activated desk and lighting control demo recorded during lockdown.*
 
 ---
 
@@ -103,30 +106,8 @@ cd cortana-voice-home-automation
 
 ```
 
-
 2. Open `firmware/voice_relay_controller.ino` in the Arduino IDE.
 3. Select board `Arduino Uno` and the corresponding COM port.
 4. Click **Upload**.
-
-### 3. Running the Host Middleware
-
-1. Update the COM port identifier in `scripts/serial_listener.py`:
-```python
-SERIAL_PORT = "COM3"  # Adjust to your Arduino COM port
-BAUD_RATE = 9600
-
-```
-
-
-2. Start the serial listener service:
-```bash
-python scripts/serial_listener.py
-
-```
-
-
-3. Issue configured voice commands to Cortana to trigger desk appliances hands-free.
-
-```
 
 ```
